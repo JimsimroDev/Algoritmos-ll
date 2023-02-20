@@ -36,6 +36,7 @@ public class QuickSort {
             arr[alto] = temp;
             System.out.println("Lista dividida en 2 partes = " + Arrays.toString(arr));
             return i + 1;
+            
         }
 
         void sort(int arr[], int bajo, int alto) {
