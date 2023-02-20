@@ -63,7 +63,7 @@ public class QuickSort {
         public static void main(String args[]) {
             int arreglo[] = {47, 1, 5, 3, 7, 13, 25, 60, 0};
             int n = arreglo.length;
-            System.out.println("Lista Inicial = " + Arrays.toString(arreglo));
+            System.out.println("Lista Inicial del arreglo= " + Arrays.toString(arreglo));
             QuickSort objeto = new QuickSort();
             objeto.sort(arreglo, 0, n-1);
             System.out.println("Lista Ordenada = " + Arrays.toString(arreglo));
